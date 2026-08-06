@@ -1,4 +1,4 @@
-# Ledger — School Result Checking Portal
+# 3MTT — School Result Checking Portal
 
 A result-management portal that solves a simple problem: **results are hard to access**. Students sign in and instantly see their published term results; school admins/registrars enter scores and publish them when ready.
 
