@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ledger-paper text-ledger-navy font-body antialiased;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ledger-gold ring-offset-2 ring-offset-ledger-paper;
+  }
+}
+
+@layer utilities {
+  .paper-texture {
+    background-image: radial-gradient(rgba(27, 42, 74, 0.035) 1px, transparent 1px);
+    background-size: 14px 14px;
+  }
+}
