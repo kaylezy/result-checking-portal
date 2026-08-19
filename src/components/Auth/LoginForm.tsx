@@ -81,6 +81,7 @@ export function LoginForm({ role }: LoginFormProps) {
         <p className="mb-1 font-semibold text-ledger-navy">Demo {roleLabel} credentials</p>
         <p>
           {demo.username} / {demo.password}
+          
         </p>
       </div>
     </form>
